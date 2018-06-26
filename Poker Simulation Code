@@ -145,3 +145,8 @@ def compareHands(handOne, handTwo):
         if cardValuesTwo[4 - i] > cardValuesOne[4 - i]:
             return 2
     return 0
+
+
+#handone = [1,2,3,4,5]
+#handtwo =[2,3,4,5,1]
+#print(compareHands(handone, handtwo))
